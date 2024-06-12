@@ -1,7 +1,6 @@
 
 
 ### Terminal Commands
-Here are the terminal commands in order of appearance of the video.
 
 - Setup the environment
     - npm install -g @aws-amplify/cli
@@ -15,7 +14,6 @@ Here are the terminal commands in order of appearance of the video.
     - amplify init
     - amplify add auth
     - amplify push
-
 
 - Develop the Demo
 
@@ -36,9 +34,9 @@ Here are the terminal commands in order of appearance of the video.
         ```
 
 ### Code Files
-- App.js: The React application that's configured to use Cognito for authentication
-- Quiz.js: The Quiz component
-- quizData.js: The hard-coded questions and answers for the quiz
+- ```cognito-react\client\src\App.js```: The React application that's configured to use Cognito for authentication
+- ```cognito-react\client\src\Quiz.js```: The Quiz component
+- ```cognito-react\client\src\quizData.js```: The hard-coded questions and answers for the quiz
 
 ### System design
 - [Eraser.io](https://app.eraser.io/workspace/E66Ksub1BkDxYb7mGIHT)
@@ -56,10 +54,11 @@ Here are the terminal commands in order of appearance of the video.
     VSCode > GitHub
     ```
 
+![eraser](../rsc/eraser.io.jpg)
 ![amplify.app](../rsc/aws.amplify.app.jpg)
 
 ### Resources
+- [Configure Amplify](https://docs.amplify.aws/gen1/javascript/tools/cli/start/set-up-cli/#configure-the-amplify-cli)
 - [Tool: Eraser.io](https://app.eraser.io/workspace/E66Ksub1BkDxYb7mGIHT)
 - [AWS Tutorial: Building a React App with Amplify, Cognito, and CI/CD with GitHub](https://www.youtube.com/watch?v=ma1FA2be8Ac)
 - [Example](https://github.com/tinytechnicaltutorials/amplify-cognito-quiz)
-- [Configure the amplify](https://docs.amplify.aws/gen1/javascript/tools/cli/start/set-up-cli/#configure-the-amplify-cli)
