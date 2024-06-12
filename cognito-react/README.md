@@ -1,9 +1,4 @@
 
-### Resources
-- [Tool: Eraser.io](https://app.eraser.io/workspace/E66Ksub1BkDxYb7mGIHT)
-- [AWS Tutorial: Building a React App with Amplify, Cognito, and CI/CD with GitHub](https://www.youtube.com/watch?v=ma1FA2be8Ac)
-- [Example](https://github.com/tinytechnicaltutorials/amplify-cognito-quiz)
-- [Configure the amplify](https://docs.amplify.aws/gen1/javascript/tools/cli/start/set-up-cli/#configure-the-amplify-cli)
 
 ### Terminal Commands
 Here are the terminal commands in order of appearance of the video.
@@ -14,20 +9,31 @@ Here are the terminal commands in order of appearance of the video.
     - npx create-react-app client
     - cd client
     - npm install aws-amplify @aws-amplify/ui-react
+    - npm start
 
-- initialize amplify config 
+- Initialize amplify config 
     - amplify init
     - amplify add auth
     - amplify push
 
+
 - Develop the Demo
-    - npm start
-    - git init
-    - git add .
-    - git commit –m "Initial commit"
-    - git branch –M main
-    - git remote add origin <repository URL>
-    - git push –u origin main
+
+    - Create a new repository on the command line
+        ```
+        git init
+        git add .
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/ameksike/tmp.git
+        git push -u origin main
+        ```
+    - Push an existing repository from the command line
+        ```
+        git remote add origin https://github.com/ameksike/tmp.git
+        git branch -M main
+        git push -u origin main
+        ```
 
 ### Code Files
 - App.js: The React application that's configured to use Cognito for authentication
@@ -49,3 +55,11 @@ Here are the terminal commands in order of appearance of the video.
     Amplify <> GitHub
     VSCode > GitHub
     ```
+
+![amplify.app](../rsc/aws.amplify.app.jpg)
+
+### Resources
+- [Tool: Eraser.io](https://app.eraser.io/workspace/E66Ksub1BkDxYb7mGIHT)
+- [AWS Tutorial: Building a React App with Amplify, Cognito, and CI/CD with GitHub](https://www.youtube.com/watch?v=ma1FA2be8Ac)
+- [Example](https://github.com/tinytechnicaltutorials/amplify-cognito-quiz)
+- [Configure the amplify](https://docs.amplify.aws/gen1/javascript/tools/cli/start/set-up-cli/#configure-the-amplify-cli)
